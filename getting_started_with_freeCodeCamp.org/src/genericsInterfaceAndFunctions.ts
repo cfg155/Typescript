@@ -9,9 +9,9 @@ const addId = <T extends object>(obj: T) => {
     }
 }
 
-interface UserInterface123<T>{
+interface UserInterface123<Y>{
     name: string
-    data?: T
+    data?: Y
 }
 
 const user123: UserInterface123<{meta: string}> = {
@@ -30,6 +30,6 @@ const user5451: UserInterface123<null> = {
     name : 'joke'
 }
 
-const result = addId({name:'jake',})
+const result = addId({name:'jake'})
 console.log(result.id)
 
