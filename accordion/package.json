@@ -1,0 +1,13 @@
+{
+  "name": "accordion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile-scss": "node-sass ./ -o ./ -w",
+    "watch-tsc": "tsc index.ts -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
